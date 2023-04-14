@@ -40,6 +40,7 @@ const Signup = () => {
             />
             <input
                 data-testid="password-input"
+                type='password'
                 value={password}
                 onChange={e => setPassword(e.target.value)}
             />
